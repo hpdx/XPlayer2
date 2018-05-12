@@ -5,17 +5,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <!--<com.anbetter.xplayer.exomedia.XVideoView-->
-    <!--android:id="@+id/player_view"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="300dp"/>-->
-
-    <!--<com.anbetter.xplayer.pl.XVideoView-->
-    <!--android:id="@+id/player_view"-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="300dp"-->
-    <!--android:background="#ff0000"/>-->
-
     <com.anbetter.xplayer.ijk.XVideoView
         android:id="@+id/player_view"
         android:layout_width="match_parent"
@@ -36,14 +25,26 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:layout_marginTop="15dp"
+                android:layout_marginTop="10dp"
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btn_rotation_90"
+                    android:id="@+id/btn_play"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="旋转90度"/>
+                    android:text="播放"/>
+
+                <Button
+                    android:id="@+id/btn_pause"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="暂停"/>
+
+                <Button
+                    android:id="@+id/btn_resume"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="继续"/>
 
             </LinearLayout>
 
@@ -80,12 +81,6 @@
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal">
-
-                <Button
-                    android:id="@+id/btn_03"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="原始尺寸"/>
 
                 <Button
                     android:id="@+id/btn_04"
@@ -153,26 +148,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="15dp"
-                android:layout_marginTop="10dp"
+                android:layout_marginTop="15dp"
                 android:orientation="horizontal">
 
                 <Button
-                    android:id="@+id/btn_play"
+                    android:id="@+id/btn_rotation_90"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="播放"/>
-
-                <Button
-                    android:id="@+id/btn_pause"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="暂停"/>
-
-                <Button
-                    android:id="@+id/btn_resume"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="继续"/>
+                    android:text="旋转90度"/>
 
             </LinearLayout>
 

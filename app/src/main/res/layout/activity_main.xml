@@ -33,23 +33,23 @@
             android:layout_height="wrap_content"
             android:text="视频小窗口和大窗口互相切换"/>
 
-        <Button
-            android:id="@+id/btn_04"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="带控制器，播放视频"/>
+        <!--<Button-->
+            <!--android:id="@+id/btn_04"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="带控制器，播放视频"/>-->
 
-        <Button
-            android:id="@+id/btn_05"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="小窗口和列表中的Item互相切换"/>
+        <!--<Button-->
+            <!--android:id="@+id/btn_05"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="小窗口和列表中的Item互相切换"/>-->
 
-        <Button
-            android:id="@+id/btn_07"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="RecyclerView自动播放竖直方向，\n处于屏幕中间Item的视频"/>
+        <!--<Button-->
+            <!--android:id="@+id/btn_07"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="RecyclerView自动播放竖直方向，\n处于屏幕中间Item的视频"/>-->
 
     </LinearLayout>
 </ScrollView>

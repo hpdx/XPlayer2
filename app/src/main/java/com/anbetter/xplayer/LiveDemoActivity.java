@@ -76,12 +76,7 @@ public class LiveDemoActivity extends AppCompatActivity {
                 mVideoView.setDisplayAspectRatio(IXRenderView.AR_ASPECT_FIT_PARENT);
             }
         });
-        findViewById(R.id.btn_03).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                mVideoView.setDisplayAspectRatio(IXRenderView.AR_ASPECT_WRAP_CONTENT);
-            }
-        });
+
         findViewById(R.id.btn_04).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

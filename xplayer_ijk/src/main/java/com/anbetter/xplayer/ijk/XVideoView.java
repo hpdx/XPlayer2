@@ -416,20 +416,14 @@ public class XVideoView extends FrameLayout implements IXVideoView,
             case AudioManager.AUDIOFOCUS_GAIN:
             case AudioManager.AUDIOFOCUS_GAIN_TRANSIENT:
                 // 获得了Audio Focus
-                MLog.i("-----------onAudioFocusChange-------------");
-
                 if (!isPlaying()) {
-                    MLog.i("-----2222------onAudioFocusChange-------------");
                     play();
                 }
                 break;
             case AudioManager.AUDIOFOCUS_LOSS:
                 // 失去了Audio Focus，并将会持续很长的时间。
                 // 这里因为可能会停掉很长时间，所以不仅仅要停止Audio的播放，最好直接释放掉Media资源。
-                MLog.i("----------AUDIOFOCUS_LOSS-------------");
-
                 if (isPlaying()) {
-                    MLog.i("-------2222---AUDIOFOCUS_LOSS-------------");
                     stop();
                 }
                 break;
@@ -438,16 +432,12 @@ public class XVideoView extends FrameLayout implements IXVideoView,
                 // 必须停止Audio的播放，但是因为可能会很快再次获得AudioFocus，这里可以不释放Media资源；
             case AudioManager.AUDIOFOCUS_LOSS_TRANSIENT_CAN_DUCK:
                 // 暂时失去AudioFocus，但是可以继续播放，不过要在降低音量。
-
-                MLog.i("----------AUDIOFOCUS_LOSS_TRANSIENT-------------");
                 if (isPlaying()) {
-                    MLog.i("----2------AUDIOFOCUS_LOSS_TRANSIENT-------------");
                     stop();
                 }
                 break;
         }
     }
-
 
     public void setControls(@Nullable XVideoControls controls) {
         if (mVideoControls != null && mVideoControls != controls) {
@@ -461,7 +451,6 @@ public class XVideoView extends FrameLayout implements IXVideoView,
                     ViewGroup.LayoutParams.MATCH_PARENT));
         }
     }
-
 
     @Override
     protected void onAttachedToWindow() {

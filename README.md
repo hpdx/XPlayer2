@@ -1,6 +1,10 @@
 # XPlayer2 
 基于ijkPlayer的Android视频播放器
 
+## 示例apk的安装
+ adb install -t *.apk 
+ (adb install -t /Users/android_ls/Desktop/app-debug.apk)
+
 ## 视频播放器组件提供的基本功能
 - 支持播放直播流（rtmp）
 - 支持播放各种格式的多媒体（MP4、flv、MP3）
