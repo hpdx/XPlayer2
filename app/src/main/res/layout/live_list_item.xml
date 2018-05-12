@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content">
+
+    <com.anbetter.xplayer.ijk.XVideoView
+        android:id="@+id/video_view"
+        android:layout_width="377dp"
+        android:layout_height="242dp"
+        android:background="@drawable/shape_do_bg"/>
+
+    <TextView
+        android:id="@+id/tv_video_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:textColor="#eb5c60"
+        android:textSize="18sp"/>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/sdv_cover_view"
+        android:layout_width="377dp"
+        android:layout_height="242dp"
+        app:actualImageScaleType="centerCrop"
+        app:roundAsCircle="false"
+        app:roundBottomLeft="true"
+        app:roundBottomRight="true"
+        app:roundTopLeft="true"
+        app:roundTopRight="true"
+        app:roundedCornerRadius="2dp"/>
+
+</FrameLayout>

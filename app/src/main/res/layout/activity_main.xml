@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/btn_01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XPlayer API"/>
+
+        <Button
+            android:id="@+id/btn_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="视频列表"/>
+
+        <Button
+            android:id="@+id/btn_03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="播放视频"/>
+
+        <Button
+            android:id="@+id/btn_06"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="视频小窗口和大窗口互相切换"/>
+
+        <Button
+            android:id="@+id/btn_04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="带控制器，播放视频"/>
+
+        <Button
+            android:id="@+id/btn_05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小窗口和列表中的Item互相切换"/>
+
+        <Button
+            android:id="@+id/btn_07"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RecyclerView自动播放竖直方向，\n处于屏幕中间Item的视频"/>
+
+    </LinearLayout>
+</ScrollView>

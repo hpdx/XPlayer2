@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/XPlayer.iml" filepath="$PROJECT_DIR$/XPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xplayer_ijk/xplayer_ijk.iml" filepath="$PROJECT_DIR$/xplayer_ijk/xplayer_ijk.iml" />
+    </modules>
+  </component>
+</project>
